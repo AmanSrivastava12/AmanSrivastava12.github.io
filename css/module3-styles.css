@@ -1,4 +1,31 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+#logo {
+  font-size: 3em;
+  color: black;
+  font-weight: bold;
+  padding: 35px;
+}
+.container-fluid {
+  background-color: rgb(128, 128, 128);
+  min-height: 15vh;
+  border-bottom: 2px solid black;
+}
+h1 {
+  padding: 20px;
+}
+section {
+  color: black;
+  background-color: rgb(128, 128, 128);
+  border: 10px solid white;
+}
+.navbar-header .navbar-toggle {
+  margin: 25px;
+}
+@media screen and (max-width: 992px) and (min-width: 768px) {
+}
+@media screen and (max-width: 767px) {
 }
