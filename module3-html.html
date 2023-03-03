@@ -17,7 +17,7 @@
             type="button"
             class="navbar-toggle collapsed"
             data-toggle="collapse"
-            data-target="#bs-example-navbar-collapse-1"
+            data-target="#collapsable-nav"
             aria-expanded="false"
           >
             <span class="sr-only">Toggle navigation</span>
@@ -27,6 +27,44 @@
           </button>
           <a class="navbar-brand" id="logo" href="#">Food, LLC</a>
         </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a
+                href="menu-categories.html"
+                class="hidden-lg hidden-md hidden-sm"
+              >
+                <span class="glyphicon glyphicon-cutlery"></span
+                ><br class="hidden-xs" />
+                Chicken</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hidden-lg hidden-md hidden-sm">
+                <span class="glyphicon glyphicon-info-sign"></span
+                ><br class="hidden-xs" />
+                Beef</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hidden-lg hidden-md hidden-sm">
+                <span class="glyphicon glyphicon-certificate"></span
+                ><br class="hidden-xs" />
+                Sushi</a
+              >
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:410-602-5008" class="hidden-lg hidden-md hidden-sm">
+                <span>410-602-5008</span></a
+              >
+              <div class="hidden-lg hidden-md hidden-sm">* We Deliver</div>
+            </li>
+          </ul>
+          <!-- #nav-list -->
+        </div>
+        <!-- .collapse .navbar-collapse -->
+
         <!-- .collapse .navbar-collapse -->
         <!-- /.navbar-collapse -->
       </div>
@@ -114,5 +152,7 @@
         nesciunt molestiae! Optio, magni?
       </p>
     </section>
+    <script src="bootstrap/js/jquery-2.1.4.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>

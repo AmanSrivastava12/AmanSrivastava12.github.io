@@ -25,6 +25,14 @@ section {
 .navbar-header .navbar-toggle {
   margin: 25px;
 }
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 1px solid #000000;
+}
+#nav-list a {
+  color: #000000;
+  text-align: center;
+}
 @media screen and (max-width: 992px) and (min-width: 768px) {
 }
 @media screen and (max-width: 767px) {
